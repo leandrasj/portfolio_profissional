@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Enviado - Obrigado!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="containertwo">
+        <div class="content-wrapper">
+            <!-- Robô -->
+            <div class="robot-container">
+                <div class="robot">
+                    <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Corpo do robô -->
+                        <rect x="60" y="80" width="80" height="90" rx="8" stroke="currentColor" stroke-width="3" fill="none"/>
+                        
+                        <!-- Cabeça do robô -->
+                        <rect x="70" y="40" width="60" height="50" rx="6" stroke="currentColor" stroke-width="3" fill="none"/>
+                        
+                        <!-- Antena -->
+                        <line x1="100" y1="40" x2="100" y2="25" stroke="currentColor" stroke-width="3"/>
+                        <circle cx="100" cy="25" r="4" fill="currentColor"/>
+                        
+                        <!-- Olhos -->
+                        <circle cx="85" cy="60" r="6" fill="currentColor"/>
+                        <circle cx="115" cy="60" r="6" fill="currentColor"/>
+                        
+                        <!-- Boca -->
+                        <rect x="90" y="70" width="20" height="8" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                        
+                        <!-- Braços -->
+                        <rect x="35" y="95" width="25" height="12" rx="6" stroke="currentColor" stroke-width="3" fill="none"/>
+                        <rect x="140" y="95" width="25" height="12" rx="6" stroke="currentColor" stroke-width="3" fill="none"/>
+                        
+                        <!-- Mãos -->
+                        <circle cx="30" cy="101" r="8" stroke="currentColor" stroke-width="3" fill="none"/>
+                        <circle cx="170" cy="101" r="8" stroke="currentColor" stroke-width="3" fill="none"/>
+                        
+                        <!-- Pernas -->
+                        <rect x="75" y="170" width="15" height="20" rx="7" stroke="currentColor" stroke-width="3" fill="none"/>
+                        <rect x="110" y="170" width="15" height="20" rx="7" stroke="currentColor" stroke-width="3" fill="none"/>
+                        
+                        <!-- Pés -->
+                        <ellipse cx="82" cy="195" rx="12" ry="5" stroke="currentColor" stroke-width="3" fill="none"/>
+                        <ellipse cx="118" cy="195" rx="12" ry="5" stroke="currentColor" stroke-width="3" fill="none"/>
+                        
+                        <!-- Detalhes do corpo -->
+                        <circle cx="85" cy="110" r="3" fill="currentColor"/>
+                        <circle cx="100" cy="120" r="3" fill="currentColor"/>
+                        <circle cx="115" cy="110" r="3" fill="currentColor"/>
+                        
+                        <!-- Painel no peito -->
+                        <rect x="80" y="135" width="40" height="20" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                        <line x1="85" y1="140" x2="115" y2="140" stroke="currentColor" stroke-width="1"/>
+                        <line x1="85" y1="145" x2="105" y2="145" stroke="currentColor" stroke-width="1"/>
+                        <line x1="85" y1="150" x2="110" y2="150" stroke="currentColor" stroke-width="1"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Conteúdo de agradecimento -->
+            <div class="thank-you-content">
+                <!-- Ícone de sucesso -->
+                <div class="success-icon">
+                    <div class="icon-wrapper">
+                        <!-- Check Circle Icon -->
+                        <svg class="check-circle" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="m9 12 2 2 4-4"/>
+                        </svg>
+                        <!-- Mail Icon -->
+                        <svg class="mail-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <!-- Título principal -->
+                <div class="title-section">
+                    <h1 class="main-title">Email Enviado!</h1>
+                    <p class="subtitle">Obrigado por entrar em contato</p>
+                </div>
+                
+                <!-- Mensagem de confirmação -->
+                <div class="message-section">
+                    <p class="primary-message">
+                        Seu email foi enviado com sucesso através do Gmail.
+                    </p>
+                    <p class="secondary-message">
+                        Recebi sua mensagem e vou te responder o mais breve possível.
+                        Geralmente consigo retornar em até 24 horas nos dias úteis.
+                    </p>
+                </div>
+                
+                <!-- Informações adicionais -->
+                <div class="info-section">
+                    <div class="status-info">
+                        <div class="status-item">
+                            <div class="status-dot green"></div>
+                            <span>Status: Entregue</span>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-dot blue"></div>
+                            <span>Tempo de resposta: 24h</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Botão de ação -->
+                <div class="action-section">
+                    <button class="back-button" onclick="location.href='index.html'">
+                    Voltar ao Portfólio Principal
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Toggle para modo escuro -->
+    <div class="theme-toggle">
+        <button id="theme-toggle-btn" onclick="toggleTheme()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="23"/>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                <line x1="1" y1="12" x2="3" y2="12"/>
+                <line x1="21" y1="12" x2="23" y2="12"/>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+        </button>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark');
+            localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+        }
+
+        // Carregar tema salvo
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark');
+            }
+        });
+    </script>
+</body>
+</html>
